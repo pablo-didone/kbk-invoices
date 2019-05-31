@@ -7,7 +7,7 @@ body {
   font-weight: 500;
 }
 
-.container {
+.container-armani {
   padding: 20px;
   background: white;
   width: 750px;
@@ -16,7 +16,7 @@ body {
   margin: 0 auto;
 }
 
-.container .top-container {
+.container-armani .top-container {
   width: 650px;
   height: auto;
   padding: 20px;
@@ -25,41 +25,41 @@ body {
   margin: 0 auto;
 }
 
-.container .top-container .left-column {
+.container-armani .top-container .left-column {
   float: left;
   max-width: 400px;
 }
 
-.container .top-container .left-column .title {
+.container-armani .top-container .left-column .title {
   font-size: 45pt;
   margin-bottom: 10px;
 }
 
-.container .top-container .left-column .order-detail {
+.container-armani .top-container .left-column .order-detail {
   font-size: 15pt;
   margin-bottom: 10px;
 }
 
-.container .top-container .left-column .order-detail .meals-amount {
+.container-armani .top-container .left-column .order-detail .meals-amount {
   text-decoration: underline;
   margin-right: 20px;
 }
 
-.container .top-container .left-column .order-date {
+.container-armani .top-container .left-column .order-date {
   font-size: 15pt;
   font-weight: 300;
 }
 
-.container .top-container .left-column .address {
+.container-armani .top-container .left-column .address {
   font-size: 10pt;
   font-weight: 300;
 }
 
-.container .top-container .right-column {
+.container-armani .top-container .right-column {
   float: right;
 }
 
-.container .top-container .right-column .box-1 {
+.container-armani .top-container .right-column .box-1 {
   width: 100px;
   height: 100px;
   margin-top: 30px;
@@ -67,12 +67,12 @@ body {
   margin-bottom: 15px;
 }
 
-.container .top-container .right-column .box-1 img {
+.container-armani .top-container .right-column .box-1 img {
   display: inline-block;
   width: 100%;
 }
 
-.container .top-container .right-column .box-2 {
+.container-armani .top-container .right-column .box-2 {
   width: 161px;
 }
 
@@ -98,7 +98,17 @@ body {
   float: left;
 }
 
-.bottom-container .details .left-column .date {
+.bottom-container .details .left-column .date-container {
+  display: flex;
+}
+
+.bottom-container .details .left-column .date-container .date {
+  font-size: 10pt;
+  font-weight: 300;
+  width: 125px;
+}
+
+.bottom-container .details .left-column .date-container .time {
   font-size: 10pt;
   font-weight: 300;
 }
@@ -108,9 +118,13 @@ body {
   margin-bottom: 5px;
 }
 
+.bottom-container .details .left-column .customer .name {
+  width: 121px;
+  display: inline-block;
+}
+
 .bottom-container .details .left-column .customer .order-number {
   display: inline-block;
-  margin-left: 25px;
 }
 
 .bottom-container .details .left-column .thanks {
