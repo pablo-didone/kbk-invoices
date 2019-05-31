@@ -1,0 +1,186 @@
+body {
+  background: #eee;
+  font-family: 'Brandon Grotesque';
+}
+
+.strong {
+  font-weight: 500;
+}
+
+.container {
+  padding: 20px;
+  background: white;
+  width: 750px;
+  border: solid 1px black;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+.container .top-container {
+  width: 650px;
+  height: auto;
+  padding: 20px;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.container .top-container .left-column {
+  float: left;
+  max-width: 400px;
+}
+
+.container .top-container .left-column .title {
+  font-size: 45pt;
+  margin-bottom: 10px;
+}
+
+.container .top-container .left-column .order-detail {
+  font-size: 15pt;
+  margin-bottom: 10px;
+}
+
+.container .top-container .left-column .order-detail .meals-amount {
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+.container .top-container .left-column .order-date {
+  font-size: 15pt;
+  font-weight: 300;
+}
+
+.container .top-container .left-column .address {
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+.container .top-container .right-column {
+  float: right;
+}
+
+.container .top-container .right-column .box-1 {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+
+.container .top-container .right-column .box-1 img {
+  display: inline-block;
+  width: 100%;
+}
+
+.container .top-container .right-column .box-2 {
+  width: 161px;
+}
+
+.bottom-container {
+  width: 650px;
+  height: 515px;
+  padding: 20px;
+  border: solid 1px black;
+  margin: 20px auto 10px;
+}
+
+.bottom-container .image {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bottom-container .details {
+  height: 120px;
+}
+
+.bottom-container .details .left-column {
+  width: 300px;
+  float: left;
+}
+
+.bottom-container .details .left-column .date {
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+.bottom-container .details .left-column .customer {
+  font-size: 12pt;
+  margin-bottom: 5px;
+}
+
+.bottom-container .details .left-column .customer .order-number {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.bottom-container .details .left-column .thanks {
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+.bottom-container .details .right-column {
+  width: 300px;
+  float: right;
+}
+
+.bottom-container .details .right-column .phone {
+  font-size: 10pt;
+  font-weight: 300;
+}
+
+.bottom-container .details .right-column .location,  {
+  font-size: 12pt;
+  font-weight: 300;
+  margin-bottom: 13px;
+}
+
+.bottom-container .details .right-column .restrictions {
+  font-size: 8pt;
+  font-weight: 300;
+}
+
+.bottom-container .table-container {
+  height: 350px;
+}
+
+.bottom-container .table-container .table-content {
+  position: relative;
+}
+
+.bottom-container .table-container .rectangle {
+  position: absolute;
+  border: solid 1px black;
+  top: 25px;
+  right: 0;
+  width: 150px;
+  height: calc(100% - 29px);
+}
+
+.bottom-container .table-container table {
+  width: 100%;
+}
+
+.bottom-container .table-container table th {
+  font-size: 10pt;
+  text-align: left;
+}
+
+.bottom-container .table-container table th.menu-item {
+  text-align: center;
+}
+
+.bottom-container .table-container table tbody td {
+  border-bottom: solid 1px #aaa;
+  height: 15px;
+}
+
+.bottom-container .table-container table tbody td.item-id {
+  text-align: center;
+  border: none;
+}
+
+.bottom-container .bottom-text {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12pt;
+}
